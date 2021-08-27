@@ -30,5 +30,6 @@ https://docs.aws.amazon.com/ko_kr/codebuild/latest/userguide/welcome.html
 
 - Environment Variable (ex. DB Url) can be printed by printenv command
 - Parameter Store IN AWS Systems Manager (ex. DB Password)
+- Service Role Policies In /policy/*.json
 
 ## CodeDeploy
