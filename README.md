@@ -19,6 +19,7 @@
 ## CodeBuild
 ### Documentation
 https://docs.aws.amazon.com/ko_kr/codebuild/latest/userguide/welcome.html
+https://docs.aws.amazon.com/ko_kr/codebuild/latest/userguide/sample-docker.html
 ### Describe
 - Fully Managed build Service
 - Alternative to other build tools such as Jenkins
