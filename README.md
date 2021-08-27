@@ -28,7 +28,7 @@ https://docs.aws.amazon.com/ko_kr/codebuild/latest/userguide/welcome.html
 - Posiibility to extend capabilities leveraging our own base Docker images
 - Secure : Integration with KMS for encryption of build artifacts, IAM for build permissions, and VPC for network security, CloudTrail for API calls logging
 
-- Environment Variable (ex. DB Url)
-- Parameter Store (ex. DB Password)
+- Environment Variable (ex. DB Url) can be printed by printenv command
+- Parameter Store IN AWS Systems Manager (ex. DB Password)
 
 ## CodeDeploy
