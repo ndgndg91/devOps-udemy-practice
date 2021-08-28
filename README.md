@@ -55,10 +55,11 @@ sudo service codedeploy-agent status
 ```
 
 ### Security Group
-TCP 22 port SSH open
-TCP 80 port HTTP open
+- InBound
+    - TCP 22 port SSH open
+    - TCP 80 port HTTP open
 
-
+### Way On Console
 1. Create Application for EC2 / On premise 
 2. Create Deployment Group ( set of EC2 )
 
