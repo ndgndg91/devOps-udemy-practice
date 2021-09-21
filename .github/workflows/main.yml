@@ -25,14 +25,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Set the value
+        id: step_one
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
-          echo "RELEASE_VERSION=${{github.sha}}" >> $GITHUB_ENV
-          echo "${{ env.RELEASE_VERSION }}"
+          echo "action_state=yellow" >> $GITHUB_ENV
+      - name: Use the value
+        id: step_two
+        run: |
+          echo "${{ env.action_state }}" # This will output 'yellow'
