@@ -35,5 +35,5 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo "RELEASE_VERSION=github.sha" >> $GITHUB_ENV
-          echo RELEASE_VERSION
-          echo github.sha
+          echo $RELEASE_VERSION
+          echo ${github.sha}
